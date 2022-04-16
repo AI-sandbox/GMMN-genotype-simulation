@@ -43,7 +43,7 @@ To execute the program enter in the command line interface:
 The input data are two numpy files:
 
 - Data of all the ancestries: Each row are SNPs of an individual.
-- Labels of the ancestries: Each row is the label of an individual.
+- Labels of the ancestries: Each row is the ancestry of an individual.
 
 The input paths are in config_users.txt:
 
