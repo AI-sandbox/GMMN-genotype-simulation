@@ -1,0 +1,21 @@
+{              
+    "Number_ancestries": 4, 
+    "num_generated_data": 1000, 
+    #### Evaluation: PCA_LDA/UMAP/Isomap
+    'Evaluation': ['PCA'], #,'Isomap','UMAP'
+    ### Name of the folder, where it will be saved all the data
+    'PATH': 'Mean_matching',
+    ### Save data (0/1) and name of the file
+    'Save_data': 1,
+    'Save_data_name': 'data', 
+    ### Save plots (0/1) and evaluation metrics (0/1)
+    'Save_plots_loss': 0,    
+    'Save_plots_dimreduction': 0,  
+    'Save_discriminator': 0, 
+    #### loss_generator: 'freq_matching_loss'/'random_features'
+    "loss_generator": "random_features",
+    # restart_features 0: no, 1:yes
+    'restart_features': 1,
+    "path_founders": '/scratch/users/mariapb/founders_22/del_founders_ch22_all_EUR_AFR_EAS_SAS_5ksnp.npy',
+    "path_anc": '/scratch/users/mariapb/founders_22/del_founders_ch22_all_anc_EUR_AFR_EAS_SAS_5ksnp.npy',
+}
