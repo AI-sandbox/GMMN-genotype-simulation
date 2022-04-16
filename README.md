@@ -4,7 +4,7 @@ Generative moment matching networks (GMMN) are used to generate new synthetic da
 This repository includes a python implementation of a GMMN to generate genotypes of a particular ancestry. 
 The network can be trained with real data or random features. The architecture of the GMMN using random features is the following:
 
-<img src="GMMN-genotype-simulation/doc-fig/gmmn.png">
+![alt text](https://github.com/AI-sandbox/GMMN-genotype-simulation/blob/main/doc-fig/gmmn.png)
 
 ## Instalation
 
