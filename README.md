@@ -2,7 +2,7 @@
 
 Generative moment matching networks (GMMN) are used to generate new synthetic data. 
 This repository includes a python implementation of a GMMN to generate genotypes of a particular ancestry. 
-The network can be trained with real data or Random Features. The architecture of the GMMN using random features is the following:
+The network can be trained with real data or random features. The architecture of the GMMN using random features is the following:
 
 <img src="GMMN-genotype-simulation/doc-fig/gmmn.png" width="50%" height="50%">
 
@@ -15,16 +15,14 @@ To install the software, go to the desired folder and enter in the command line 
 
 The dependencies are listed in requirements.txt. They can be installed with pip:
 
-    pip install -r requirements.txt
-
-TODO: requirements   
+    pip install -r requirements.txt  
 
 ## Usage
 
 ### Parameters
 
-The GMMN can be trainned with Real Data or Random Features, and the network weights of the Random Features can be restarted.
-By default the GMMN is trained with Random Features with restart. This can be changed in the config_users.txt with the following parameters:
+The GMMN can be trainned with real data or random features, and the network weights of the random features can be restarted.
+By default the GMMN is trained with random features with restart. This can be changed in the config_users.txt with the following parameters:
 
      "loss_generator" : "Random_features" or "freq_matching_loss" (Real data)
      "restart_features": 0 (No restart) or 1 (restart)
