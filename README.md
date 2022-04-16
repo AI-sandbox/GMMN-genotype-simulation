@@ -21,8 +21,8 @@ The dependencies are listed in requirements.txt. They can be installed with pip:
 
 ### Parameters
 
-The GMMN can be trainned with real data or random features, and the network weights of the random features can be restarted.
-By default the GMMN is trained with random features with restart. This can be changed in the config_users.txt with the following parameters:
+The GMMN can be trained with real data or random features, and the network weights of the random features can be restarted.
+By default, the GMMN is trained with random features with a restart. This can be changed in the config_users.txt with the following parameters:
 
      "loss_generator" : "Random_features" or "freq_matching_loss" (Real data)
      "restart_features": 0 (No restart) or 1 (restart)
@@ -32,7 +32,7 @@ The parameters and hyperparameters of the model are defined in config.txt.
 
 ### Execution
 
-To execute the program enter in the command line interface:
+To execute the program enter in the command-line interface:
      
      cd src
      python3 MMN.py
@@ -40,9 +40,9 @@ To execute the program enter in the command line interface:
 
 ## Input
 
-The input data are two numpy files:
+The input data are two NumPy files:
 
-- Data of all the ancestries: Each row are SNPs of an individual.
+- Data of all the ancestries: Each row is the SNPs of an individual.
 - Labels of the ancestries: Each row is the ancestry of an individual.
 
 The input paths are in config_users.txt:
@@ -54,8 +54,8 @@ The input paths are in config_users.txt:
 
 The default output is the generated data. However, this can be changed in the config_users.txt.
 
-The name of the folder that is created for saving all the outputs is defined with the parameter PATH. If this field is empty the name of the folder is Results + date and hour of the day is executed. 
-The variable save_data can be 1 (save data) or 0 (don't save data), and the variable Save_data_name is the name of the files + samples or labels, because the software saves two files, one for the samples and another for the labels.
+The name of the folder that is created for saving all the outputs is defined with the parameter PATH. If this field is empty the name of the folder is Results + date and the hour of the day is executed. 
+The variable save_data can be 1 (save data) or 0 (don't save data), and the variable Save_data_name is the name of the files + samples or labels because the software saves two files, one for the samples and another for the labels.
 
 The evaluation metrics and plots can also be saved.
 

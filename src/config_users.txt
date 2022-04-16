@@ -4,7 +4,7 @@
     #### Evaluation: PCA_LDA/UMAP/Isomap
     'Evaluation': ['PCA'], #,'Isomap','UMAP'
     ### Name of the folder, where it will be saved all the data
-    'PATH': 'Mean_matching',
+    'PATH': '',
     ### Save data (0/1) and name of the file
     'Save_data': 1,
     'Save_data_name': 'data', 
