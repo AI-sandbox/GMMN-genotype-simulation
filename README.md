@@ -76,3 +76,22 @@ The evaluation metrics and plots can also be saved.
 
 **NOTICE**: This software is available for use free of charge for academic research use only. Commercial users, for profit companies or consultants, and non-profit institutions not qualifying as "academic research" must contact the [Stanford Office of Technology Licensing](https://otl.stanford.edu/) for a separate license. This applies to this repository directly and any other repository that includes source, executables, or git commands that pull/clone this repository as part of its function. Such repositories, whether ours or others, must include this notice. Academic users may fork this repository and modify and improve to suit their research needs, but also inherit these terms and must include a licensing notice to that effect.
 
+
+## Cite
+
+When using this software, please cite the following paper (currently pre-print):
+
+```
+@article {Perera2022.04.14.488350,
+    author = {Perera, Maria and Montserrat, Daniel Mas and Barrab{\'e}s, M{\'\i}riam and Geleta, Margarita and Gir{\'o}-i-Nieto, Xavier and Ioannidis, Alexander G.},
+    title = {Generative Moment Matching Networks for Genotype Simulation},
+    elocation-id = {2022.04.14.488350},
+    year = {2022},
+    doi = {10.1101/2022.04.14.488350},
+    publisher = {Cold Spring Harbor Laboratory},
+    abstract = {The generation of synthetic genomic sequences using neural networks has potential to ameliorate privacy and data sharing concerns and to mitigate potential bias within datasets due to under-representation of some population groups. However, there is not a consensus on which architectures, training procedures, and evaluation metrics should be used when simulating single nucleotide polymorphism (SNP) sequences with neural networks. In this paper, we explore the use of Generative Moment Matching Networks (GMMNs) for SNP simulation, we present some architectural and procedural changes to properly train the networks, and we introduce an evaluation scheme to qualitatively and quantitatively assess the quality of the simulated sequences.Competing Interest StatementThe authors have declared no competing interest.},
+    URL = {https://www.biorxiv.org/content/early/2022/04/14/2022.04.14.488350},
+    eprint = {https://www.biorxiv.org/content/early/2022/04/14/2022.04.14.488350.full.pdf},
+    journal = {bioRxiv}
+}
+```
