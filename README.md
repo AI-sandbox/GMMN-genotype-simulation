@@ -50,7 +50,7 @@ The input paths are in config_users.txt:
     "path_founders": 'data_all_anc.npy',
     "path_anc": 'labels_ancestries.npy',
     
-# Data
+### Data
 
 The data used to test the models can be found in the following link: https://figshare.com/articles/dataset/Founders_and_ancestries_ch22_5K_features_/19714480
 
