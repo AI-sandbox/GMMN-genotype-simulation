@@ -49,7 +49,17 @@ The input paths are in config_users.txt:
 
     "path_founders": 'data_all_anc.npy',
     "path_anc": 'labels_ancestries.npy',
-     
+    
+# Data
+
+The data used to test the models can be found in the following link: https://figshare.com/articles/dataset/Founders_and_ancestries_ch22_5K_features_/19714480
+
+The founders data contain 5K SNPs of the individuals, and the Ancestries data the ancestries of the individuals.
+In the dataset, there are 7 ancestries, but just 4 were used to test the models (Europeans, Africans, East Asians, and South Asians).
+
+In the following links can be found the same data with 10K and 1K SNPs (features): https://figshare.com/articles/dataset/Founders_and_ancestries_ch22_10K_features_/19709461,  https://figshare.com/articles/dataset/Founders_and_ancestries_ch22_1K_features_/19714519
+
+
 ## Output
 
 The default output is the generated data. However, this can be changed in the config_users.txt.
@@ -71,6 +81,7 @@ The evaluation metrics and plots can also be saved.
     'Save_plots_dimreduction': 1,  
     'Save_discriminator': 0, # Accuracies of the classifiers
     
+
 
 ## License
 
